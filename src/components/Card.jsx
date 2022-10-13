@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ item }) => {
   const { src, heading, text } = item;
   return (
-    <article className=" md:flex md:even:flex-row-reverse md:justify-between md:items-center text-VeryDarkCyan rounded-2xl py-12 px-8 text-center shadow-card bg-white ">
+    <article className=" md:flex md:odd:flex-row-reverse md:justify-between md:items-center text-VeryDarkCyan rounded-2xl py-12 px-8 text-center shadow-card bg-white ">
       <div className="md:flex-1">
         <img src={src} className="md:max-w-[80%]" alt="" />
       </div>
