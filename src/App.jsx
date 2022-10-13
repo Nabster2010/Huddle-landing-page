@@ -27,12 +27,12 @@ const data = [
 function App() {
   return (
     <div className="min-h-screen w-full ">
-      <div className="bg-VeryPaleCyan bg-[url('/images/bg-hero-mobile.svg')] md:bg-[url('../public/images/bg-hero-desktop.svg')] bg-no-repeat bg-contain ">
+      <div className="bg-VeryPaleCyan bg-[url('/images/bg-hero-mobile.svg')] md:bg-[url('/images/bg-hero-desktop.svg')] bg-no-repeat bg-contain ">
         <Header />
         <Hero />
       </div>
       <main className="pt-24 bg-gray-50 ">
-        <section className="space-y-32 md:space-y-6 px-4 md:p-8 lg:px-16">
+        <section className="space-y-32 md:space-y-6 px-4 md:px-8 lg:px-16">
           {data.map((item) => (
             <Card key={item.src} item={item} />
           ))}

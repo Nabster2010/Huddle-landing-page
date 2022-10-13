@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="px-8 md:p-8 lg:px-16 md:flex md:justify-between md:items-center text-center text-VeryDarkCyan font-body mt-28 md:mt-12 md:gap-8  ">
+    <section className="px-8 md:px-8 lg:px-16 md:flex md:justify-between md:items-center text-center text-VeryDarkCyan font-body mt-28 md:mt-12 md:gap-8  ">
       <div className=" md:text-start flex-1 ">
         <div className="space-y-8 ">
           <h1 className="text-3xl font-semibold lg:max-w-[80%] md:max-w-[90%]">
