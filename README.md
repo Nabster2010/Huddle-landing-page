@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repo]()
-- Live Site URL: [live site]()
+- Solution URL: [github repo](https://github.com/Nabster2010/Huddle-landing-page)
+- Live Site URL: [live site](https://sparkling-truffle-44c097.netlify.app/)
 
 ### Built with
 
